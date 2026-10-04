@@ -1,18 +1,22 @@
 ## Hi, I'm Rayen 👋
 
-Data Science student working on machine learning across tabular data, time series,
-computer vision, audio and multimodal models. I care about evaluating models
-honestly: time-aware splits, leakage checks, naive baselines and explainability.
+Data Science student building machine learning projects end to end, from raw data
+to a working demo. I'm most interested in models that hold up outside a notebook,
+so I care as much about evaluation as about architecture.
 
-### Projects
+### What I work on
 
-| Project | What it does | Stack |
-|---|---|---|
-| [**Fraud detection on PaySim**](https://github.com/rayenlatrech/fraud-detection-paysim) | XGBoost on 6.3M transactions (0.13% fraud) with a time-based split, SHAP explanations and a what-if dashboard. ROC-AUC 0.91, PR-AUC 0.33 without leaky balance features. | XGBoost, SHAP, Streamlit |
-| [**Industrial defect detection**](https://github.com/rayenlatrech/industrial_defect_detection) | CNN inspection of metal castings with kNN anomaly scoring, Grad-CAM heatmaps and auto-generated inspection reports. | PyTorch, scikit-learn, Streamlit |
-| [**Multimodal fake news detection**](https://github.com/rayenlatrech/fake-news-detector) | Fine-tuned CLIP on image + caption pairs. 95.8% validation accuracy, Gradio demo. | PyTorch, Transformers, Gradio |
-| [**Music genre classification**](https://github.com/rayenlatrech/music-genre-classifier) | ResNet18 on log-Mel spectrograms (84.7% on GTZAN) vs. KNN / SVM / Random Forest on audio features (68.5% best). | PyTorch, librosa, Streamlit |
-| [**Crypto return forecasting**](https://github.com/rayenlatrech/crypto-lstm-forecasting) | LSTM / GRU forecasting of hourly BTC returns, benchmarked against naive baselines, showing why short-term returns are near-unpredictable. | PyTorch, Streamlit |
+- **Deep learning:** computer vision, audio and multimodal models (CNNs, CLIP, transformers)
+- **Tabular ML & time series:** imbalanced classification, forecasting, feature engineering
+- **Explainability:** SHAP and Grad-CAM to check *why* a model decides, not just how often it's right
+- **Deployment:** turning models into usable apps with Streamlit and Gradio
+
+### How I approach a project
+
+- Start with a naive baseline, so every result has something to beat
+- Split data the way it will be used: by time, by track, by source, never randomly by default
+- Look for leakage before trusting a good score
+- Report honest numbers, including when the answer is "this doesn't work"
 
 ### Tools
 
@@ -23,4 +27,4 @@ honestly: time-aware splits, leakage checks, naive baselines and explainability.
 
 ### Contact
 
-rayen.latrech1@gmail.com
+📫 [rayen.latrech1@gmail.com](mailto:rayen.latrech1@gmail.com)
